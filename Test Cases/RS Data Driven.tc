@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RS Data Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a327a34f-8999-43b7-baff-a294d5f63845</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3fca7f86-ec03-4d70-885f-360371cf3fa6</id>
+      <masked>false</masked>
+      <name>Usernames</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b2a24aa5-4413-4c6a-923f-ff1d3b454ec7</id>
+      <masked>false</masked>
+      <name>Jobs</name>
+   </variable>
+</TestCaseEntity>
