@@ -21,6 +21,7 @@ def slurper = new groovy.json.JsonSlurper()
 def result = slurper.parseText(response.getResponseBodyContent())
 def value = result.data[3].name
 
+println ("Value extracted from response : "+value)
 // If you dont want it as a global variable
 WS.sendRequestAndVerify(findTestObject('Rest Services - PUT/Update User - Copy', [('userName') : value]))
 
